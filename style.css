@@ -311,6 +311,45 @@ header .menu {
   }
 
 
+  #icons {
+    position:relative;
+    width:  80px;
+    height: 80px;
+    object-fit: cover;
+  }
+
+  .join-DFA-box {  
+    width:50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    min-height: 250px;
+    max-height: 200vh;
+    position: relative;
+    }
+
+  .join-DFA-box img {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+   }
+
+  #clipboard-img {
+    position:relative;
+    width:  95px;
+    height: 95px;
+    object-fit: cover;
+  }
+
+  #application-form {
+    font-size: 30px;
+  }
+
+  #application-form input {
+    height:50px;
+    font-size:14pt;
+  }
+
 
 /*@media (max-width: 1060px) {
     header .btn {
