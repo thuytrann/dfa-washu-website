@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 <html>
     <head>
        
@@ -102,3 +103,4 @@
 
 
 </html>
+<?php get_footer(); ?>
