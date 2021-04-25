@@ -18,6 +18,9 @@ body {
     min-height: 100vh;
 }
 
+
+
+
 .section-carousel {
     position: relative;
     width: 100%;
@@ -31,6 +34,7 @@ body {
     overflow: hidden;
 
 }
+
 
 .section-carousel h1 {
     color: rgba(255, 255, 255, 0.5);
@@ -311,45 +315,69 @@ header .menu {
   }
 
 
-  #icons {
+    #icons {
     position:relative;
     width:  80px;
     height: 80px;
     object-fit: cover;
-  }
-
-  .join-DFA-box {  
-    width:50%;
-    margin-left: 25%;
-    display: flex;
-    justify-content: center;
-    min-height: 250px;
-    max-height: 200vh;
-    position: relative;
     }
 
-  .join-DFA-box img {
-    position: absolute;
-    top: -10px;
-    left: -10px;
-   }
+    .join-DFA-box {  
+        width:50%;
+        margin-left: 25%;
+        display: flex;
+        justify-content: center;
+        min-height: 250px;
+        max-height: 300vh;
+        position: relative;
 
-  #clipboard-img {
-    position:relative;
-    width:  95px;
-    height: 95px;
-    object-fit: cover;
-  }
+    }
 
-  #application-form {
-    font-size: 30px;
-  }
+    .join-DFA-box img {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+    }
 
-  #application-form input {
-    height:50px;
-    font-size:14pt;
-  }
+    #our-process-link {
+        background-color: #3ec1e9;
+        color: black;
+        padding: 3px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border: 2px solid black;
+    }
+   
+    #our-process-link:hover {
+        background-color: #13b6e7;
+    }
+      
+  
 
+    #clipboard-img {
+        position:relative;
+        width:  95px;
+        height: 95px;
+        object-fit: cover;
+    }
+
+  
+
+    #application-form {
+        font-size: 30px;
+    }
+
+    #application-form input {
+        height:50px;
+        font-size:14pt;
+    }
+
+    
+    .form-box {  
+        justify-content: center;
+    }
+    
 
 /*@media (max-width: 1060px) {
     header .btn {
