@@ -1,4 +1,3 @@
-<?php get_header(); ?>
 <html>
     <head>
        
@@ -28,7 +27,7 @@
         Such instances are more limited and often require multi-semester partnerships.
         </p>
         <br>
-        <a href="page-our-process.php">Our Process</a>
+        <a id="our-process-link" href="page-our-process.php">Our Process</a>
         </div>
     </div>
 
@@ -93,18 +92,8 @@
       </div>
      </div>
 
-    <div class="join-DFA-box">
-        <form action="index.php" method="POST">
-        <div id="application-form">
-            <h1>Application Form</h1>
-            First Name: <input type="text" name="firstName"> <br>
-            <br>
-            Last Name: <input type="text" name="lastName"> <br>
-            <br>
-            WUSTL Email: <input type="text" name="email">
-            <input type="submit">
-        </form>
-        </div>
+    <div class="form-box">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0LmdjUdv_N7P3m7AJYGvuzGP_BxYih6cOUgZVqvSEuqY8pw/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
      </div>
  
 
@@ -113,4 +102,3 @@
 
 
 </html>
-<?php get_footer(); ?>
