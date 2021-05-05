@@ -23,9 +23,9 @@
       <div class="dropdown">
         <a href="<?php echo site_url('/about-us'); ?>">About Us</a>
         <div class="dropdown-content">
-          <a href="">Our Process</a>
-          <a href="">Our Values</a>
-          <a href="">Mission Statement</a>
+          <a href="<?php echo site_url('/about-us/#Our_Process'); ?>">Our Process</a>
+          <a href="<?php echo site_url('/about-us/#Our_Values'); ?>">Our Values</a>
+          <a href="<?php echo site_url('/about-us/#Mission_Statement'); ?>">Mission Statement</a>
         </div>
       </div>
     </div>
